@@ -1,0 +1,11 @@
+{
+  "name": "CampusOS | Fulbariya College",
+  "short_name": "CampusOS",
+  "description": "A modern digital campus portal for Fulbariya College.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f7fc",
+  "theme_color": "#0a1655",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
