@@ -6,9 +6,9 @@
  */
 export const CONFIG = {
   college: {
-  name: 'Fulbaria College', // 'Fulbariya' থেকে 'Fulbaria' করা হলো
-  shortName: 'Fulbaria College', // 'CampusOS' থেকে পরিবর্তন করা হলো
-  banglaName: 'ফুলবাড়িয়া কলেজ, ময়মনসিংহ',
+    name: 'Fulbaria College',
+    shortName: 'Fulbaria College',
+    banglaName: 'ফুলবাড়িয়া কলেজ, ময়মনসিংহ',
     tagline: 'Smart Campus, Better Future',
     established: '1972',
     eiin: '111516',
@@ -17,7 +17,6 @@ export const CONFIG = {
     phone: '',
     email: '',
     logoUrl: '',
-    // Replace with a real college photo URL or upload using the admin panel.
     heroFallbackImage: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1800&q=85',
   },
   theme: { navy: '#0a1655', navyDeep: '#07102e', gold: '#f2d27b', goldDark: '#d4af37', page: '#f4f7fc' },
@@ -43,7 +42,6 @@ export const CONFIG = {
     routines: true,
     notices: true,
     departmentSlider: true,
-    // Browser app uses these as fallback display counters until database values are available.
     fallbackCounters: { students: '2,850+', teachers: '120+', departments: '25+', years: '50+' },
   },
   navigation: [
@@ -60,6 +58,6 @@ export const CONFIG = {
   ],
   sliderFallback: [
     { title: 'A place to learn and grow', subtitle: 'Knowledge, character and opportunity — together.', image: '' },
-    { title: 'Discover your potential', subtitle: 'Explore academic life at Fulbariya College.', image: '' },
+    { title: 'Discover your potential', subtitle: 'Explore academic life at Fulbaria College.', image: '' },
   ],
 };
