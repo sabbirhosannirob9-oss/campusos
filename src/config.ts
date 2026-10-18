@@ -1,4 +1,4 @@
-/**
+ /**
  * CAMPUSOS CENTRAL CONFIG
  * Most college identity, UI labels, features, counts, slider items and integrations are configured here.
  * Supabase publishable keys and Cloudinary unsigned upload presets are intended for browser use.
@@ -6,9 +6,9 @@
  */
 export const CONFIG = {
   college: {
-    name: 'Fulbariya College',
-    shortName: 'CampusOS',
-    banglaName: 'ফুলবাড়ীয়া কলেজ, ময়মনসিংহ',
+  name: 'Fulbaria College', // 'Fulbariya' থেকে 'Fulbaria' করা হলো
+  shortName: 'Fulbaria College', // 'CampusOS' থেকে পরিবর্তন করা হলো
+  banglaName: 'ফুলবাড়িয়া কলেজ, ময়মনসিংহ',
     tagline: 'Smart Campus, Better Future',
     established: '1972',
     eiin: '111516',
