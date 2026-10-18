@@ -1,8 +1,6 @@
  /**
  * CAMPUSOS CENTRAL CONFIG
  * Most college identity, UI labels, features, counts, slider items and integrations are configured here.
- * Supabase publishable keys and Cloudinary unsigned upload presets are intended for browser use.
- * NEVER place a Supabase service_role key or other secret in this file.
  */
 export const CONFIG = {
   college: {
@@ -22,7 +20,7 @@ export const CONFIG = {
   theme: { navy: '#0a1655', navyDeep: '#07102e', gold: '#f2d27b', goldDark: '#d4af37', page: '#f4f7fc' },
   integrations: {
     supabaseUrl: 'https://dpbbsfppjmgvzsopmdww.supabase.co',
-    supabasePublishableKey: 'sb_publishable_O0gApiitS1P9graqe1cjKA_f8KJRUD7',
+    supabasePublishableKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRwYmJzZnBwam1ndnpzb3BtZHd3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY5ODgwMTYsImV4cCI6MjEwMjU2NDAxNn0.akO-N4AL9DCLBOaESqjm8GecJqy-xJhlwyynFDeithY',
     cloudinaryCloudName: 'awxusvtg',
     cloudinaryUploadPreset: 'college_unsigned',
     cloudinaryFolder: 'fulbariya-college',
